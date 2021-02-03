@@ -19,7 +19,7 @@
 
 ---
 
-*Log debug information from <kbd>vim</kbd> scripts and commandline to file. Typically to use in combination with <kbd>tail</kbd>.*
+*Log debug information from <kbd>vim</kbd>-scripts and commandline to file. Typically to use in combination with <kbd>tail</kbd>.*
 
 * Show execution time from last entry
 * Accumulated execution time *(Not excluding the rather heavy overhead from deblog)*
