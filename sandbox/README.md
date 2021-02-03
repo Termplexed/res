@@ -1,4 +1,5 @@
-```
+<pre>
+
                ███████           ██       ██
               ░██░░░░██         ░██      ░██           █████
               ░██    ░██  █████ ░██      ░██  ██████  ██░░░██
@@ -7,9 +8,18 @@
               ░██    ██ ░██░░░░ ░██  ░██ ░██░██   ░██ ░░░░░██
               ░███████  ░░██████░██████  ███░░██████   █████
 
-```
 
-Log debug information from script and commandline to file, to use with tail
+ </pre>
+
+---
+
+<p align="center">
+<sup>There is no I in team, but there is an U in fun.</sup>
+</p>
+
+---
+
+*Log debug information from vim scripts and commandline to file. Typically to use in combination with tail.*
 
 * Show execution time from last entry
 * Accumulated execution time *(Not excluding the rather heavy overhead from deblog)*
