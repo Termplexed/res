@@ -1,5 +1,6 @@
 | Command          | Description / Examples |
 | :---:            | :---                   |
+| | |
 | <kbd>DUMP</kbd>  | Dump anything |
 |                  | ` DUMP "Some objects: ", s:my_obja, s:other_obj` <br> `DUMP s:foo`  |
 | <kbd>LLOG</kbd><br><kbd>LLOG2</kbd><br><kbd>LLOG3</kbd><br><kbd>LLOG4</kbd>  | Log with file:line and call information<br>each command can be silenced one can turn logging on / off for selected information. |
