@@ -107,7 +107,7 @@ This adds [the following commands](https://github.com/Termplexed/deblog/blob/d63
 | :---:            | :---                   |
 | <kbd>DUMP</kbd>  | Dump anything |
 |                  | <pre>DUMP "Some objects: ", s:my_obja, s:other_obj</pre> |
-|                  | <quote> `DUMP s:foo` </quote> |
+|                  | <bolckquote> `DUMP s:foo` </bolckquote> |
 | <kbd>LLOG</kbd>  | Log with file:line and call information |
 |                  | <quote> `LLOG "The ID=" . string(s:foo.id)`</quote> |
 | <kbd>LLOG2</kbd> | |
@@ -119,7 +119,7 @@ This adds [the following commands](https://github.com/Termplexed/deblog/blob/d63
 |                  | <quote>`QLOG "Hello"` </quote> |
 | <kbd>EXLOG</kbd> | Log result of executing |
 |                  | <quote> `EXLOG reltime()` </quote> |
-|                  | <quote> `EXLOG :messages` </quote> |
+|                  | `EXLOG :messages` |
 |                  | <quote> `EXLOG :verbose function` </quote> |
 | | |
 | <kbd>DEBLOGSHELLTAIL</kbd> | Open pre-defined shell with `tail N -f log-file` [(read here)](#view-log---and-other-commands) |
