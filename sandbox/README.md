@@ -1,3 +1,24 @@
+| Command          | Description / Examples |
+| :---:            | :---                   |
+| <kbd>DUMP</kbd>  | Dump anything |
+|                  | ` DUMP "Some objects: ", s:my_obja, s:other_obj` <br> `DUMP s:foo`  |
+| <kbd>LLOG</kbd><br><kbd>LLOG2</kbd><br><kbd>LLOG3</kbd><br><kbd>LLOG4</kbd>  | Log with file:line and call information<br>each command can be silenced one can turn logging on / off for selected information. |
+|                  | `LLOG "The ID=" . string(s:foo.id)` |
+| <kbd>LOG</kbd>   | Plain logging. Does not log filename, linenumber, function, ... |
+|                  | `LOG "Hello"` |
+| <kbd>QLOG</kbd>  | Quoted plain logging. Same as `LOG` but output is wrapped in quotes. |
+|                  | `QLOG "Hello"` |
+| <kbd>EXLOG</kbd> | Log result of executing |
+|                  | `EXLOG reltime()`<br>`EXLOG :messages`<br>`EXLOG :verbose function` |
+| | |
+| | |
+| <kbd>DEBLOGSHELLTAIL</kbd> | Open pre-defined shell with `tail N -f log-file` [(read here)](#view-log---and-other-commands) |
+| | |
+| <kbd>DEBMUTE</kbd>         | Mute output: do not write to log file. Note that the deblog script functions are still called. <br/>To prevent calling one have to call `g:Deblog2.mute()`, but this result in loss of environment if un-muting from different script. See [Using calls](#using-calls)  |
+| | |
+| <kbd>DEBUNMUTE</kbd>       | Un-mute output: write to log file  |
+
+
 <div align="center">
 <sup><pre>
  ███████           ██       ██                 
