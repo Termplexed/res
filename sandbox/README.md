@@ -10,7 +10,7 @@
 </pre>
 </div>
 <table align="center"><tr align="center">
-	<td>»»</td>
+	<td align="right">|</td>
 	<th>
 <pre align="center">
  ███████           ██       ██                 
@@ -22,7 +22,7 @@
 ░███████  ░░██████░██████  ███░░██████   █████ 
 </pre>
 </th>
-	<td>««</td>
+	<td align="left">|</td>
 	</tr></table>
 
 
