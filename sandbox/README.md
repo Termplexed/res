@@ -65,7 +65,7 @@ This adds [the following commands](https://github.com/Termplexed/deblog/blob/d63
 | Command          | Description / Examples |
 | :---:            | :---                   |
 | <kbd>DUMP</kbd>  | Dump anything |
-|                  | <code>DUMP "Some objects: ", s:my_obja, s:other_obj</code> |
+|                  | <pre>DUMP "Some objects: ", s:my_obja, s:other_obj</pre> |
 |                  | <quote> `DUMP s:foo` </quote> |
 | <kbd>LLOG</kbd>  | Log with file:line and call information |
 |                  | <quote> `LLOG "The ID=" . string(s:foo.id)`</quote> |
