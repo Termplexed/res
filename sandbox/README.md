@@ -64,26 +64,26 @@ This adds [the following commands](https://github.com/Termplexed/deblog/blob/d63
 
 | Command            | Description / Examples |
 | :---               | :---                   |
-| <kbd>`DUMP`</kbd>  | Dump anything |
+| <kbd>DUMP</kbd>  | Dump anything |
 |                    | <quote> `DUMP "Some objects: ", s:my_obja, s:other_obj` </quote> |
 |                    | <quote> `DUMP s:foo` </quote> |
-| <kbd>`LLOG`</kbd>  | Log with file:line and call information |
+| <kbd>LLOG</kbd>  | Log with file:line and call information |
 |                    | <quote> `LLOG "The ID=" . string(s:foo.id)`</quote> |
-| <kbd>`LLOG2`</kbd> | |
-| <kbd>`LLOG3`</kbd> | |
-| <kbd>`LLOG4`</kbd> | same as `LLOG`, but as each command can be silenced one can turn logging on / off for selected information. |
-| <kbd>`LOG`</kbd>   | Plain logging. Does not log filename, linenumber, function, ... |
+| <kbd>LLOG2</kbd> | |
+| <kbd>LLOG3</kbd> | |
+| <kbd>LLOG4</kbd> | same as `LLOG`, but as each command can be silenced one can turn logging on / off for selected information. |
+| <kbd>LOG</kbd>   | Plain logging. Does not log filename, linenumber, function, ... |
 |                    | <quote> `LOG "Hello"` </quote> |
-| <kbd>`QLOG`</kbd>  | Quoted plain logging. Same as `LOG` but output is wrapped in quotes. |
+| <kbd>QLOG</kbd>  | Quoted plain logging. Same as `LOG` but output is wrapped in quotes. |
 |                    | <quote>`QLOG "Hello"` </quote> |
-| <kbd>`EXLOG`</kbd> | Log result of executing |
+| <kbd>EXLOG</kbd> | Log result of executing |
 |                    | <quote> `EXLOG reltime()` </quote> |
 |                    | <quote> `EXLOG :messages` </quote> |
 |                    | <quote> `EXLOG :verbose function` </quote> |
 | | |
-| <kbd>`DEBLOGSHELLTAIL`</kbd> | Open pre-defined shell with `tail N -f log-file` [(read here)](#view-log---and-other-commands) |
-| <kbd>`DEBMUTE`</kbd>         | Mute output: do not write to log file. Note that the deblog script functions are still called. <br/>To prevent calling one have to call `g:Deblog2.mute()`, but this result in loss of environment if un-muting from different script. See [Using calls](#using-calls)  |
-| <kbd>`DEBUNMUTE`</kbd>       | Un-mute output: write to log file  |
+| <kbd>DEBLOGSHELLTAIL</kbd> | Open pre-defined shell with `tail N -f log-file` [(read here)](#view-log---and-other-commands) |
+| <kbd>DEBMUTE</kbd>         | Mute output: do not write to log file. Note that the deblog script functions are still called. <br/>To prevent calling one have to call `g:Deblog2.mute()`, but this result in loss of environment if un-muting from different script. See [Using calls](#using-calls)  |
+| <kbd>DEBUNMUTE</kbd>       | Un-mute output: write to log file  |
 
 
 The various functions can also be called by `:call g:Deblog2. ....`, look at the source and / or the [Using calls section](#using-calls). Notable functions:
