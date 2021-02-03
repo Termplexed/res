@@ -118,9 +118,7 @@ This adds [the following commands](https://github.com/Termplexed/deblog/blob/d63
 | <kbd>QLOG</kbd>  | Quoted plain logging. Same as `LOG` but output is wrapped in quotes. |
 |                  | <quote>`QLOG "Hello"` </quote> |
 | <kbd>EXLOG</kbd> | Log result of executing |
-|                  | <quote> `EXLOG reltime()` </quote> |
-|                  | `EXLOG :messages` |
-|                  | <quote> `EXLOG :verbose function` </quote> |
+|                  | `EXLOG reltime()` <br> `EXLOG :messages` <br> `EXLOG :verbose function` |
 | | |
 | <kbd>DEBLOGSHELLTAIL</kbd> | Open pre-defined shell with `tail N -f log-file` [(read here)](#view-log---and-other-commands) |
 | <kbd>DEBMUTE</kbd>         | Mute output: do not write to log file. Note that the deblog script functions are still called. <br/>To prevent calling one have to call `g:Deblog2.mute()`, but this result in loss of environment if un-muting from different script. See [Using calls](#using-calls)  |
