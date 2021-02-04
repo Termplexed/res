@@ -1,3 +1,5 @@
+XX
+
 | Command          | Description / Examples |
 | :---:            | :---                   |
 | | |
@@ -22,25 +24,25 @@
 
 <div align="center">
 <sup><pre>
- ███████           ██       ██                 
-░██░░░░██         ░██      ░██           █████ 
+ ███████           ██       ██
+░██░░░░██         ░██      ░██           █████
 ░██    ░██  █████ ░██      ░██  ██████  ██░░░██
 ░██    ░██ ██░░░██░██████  ░██ ██░░░░██░██  ░██
 ░██    ░██░███████░██░░░██ ░██░██   ░██░░██████
 ░██    ██ ░██░░░░ ░██  ░██ ░██░██   ░██ ░░░░░██
-░███████  ░░██████░██████  ███░░██████   █████ 
+░███████  ░░██████░██████  ███░░██████   █████
 </pre></sup>
 </div>
 
 <div align="center">
 <pre>
- ███████           ██       ██                 
-░██░░░░██         ░██      ░██           █████ 
+ ███████           ██       ██
+░██░░░░██         ░██      ░██           █████
 ░██    ░██  █████ ░██      ░██  ██████  ██░░░██
 ░██    ░██ ██░░░██░██████  ░██ ██░░░░██░██  ░██
 ░██    ░██░███████░██░░░██ ░██░██   ░██░░██████
 ░██    ██ ░██░░░░ ░██  ░██ ░██░██   ░██ ░░░░░██
-░███████  ░░██████░██████  ███░░██████   █████ 
+░███████  ░░██████░██████  ███░░██████   █████
 </pre>
 </div>
 
@@ -48,13 +50,13 @@
 	<td align="right">|</td>
 	<th>
 <pre align="center">
- ███████           ██       ██                 
-░██░░░░██         ░██      ░██           █████ 
+ ███████           ██       ██
+░██░░░░██         ░██      ░██           █████
 ░██    ░██  █████ ░██      ░██  ██████  ██░░░██
 ░██    ░██ ██░░░██░██████  ░██ ██░░░░██░██  ░██
 ░██    ░██░███████░██░░░██ ░██░██   ░██░░██████
 ░██    ██ ░██░░░░ ░██  ░██ ░██░██   ░██ ░░░░░██
-░███████  ░░██████░██████  ███░░██████   █████ 
+░███████  ░░██████░██████  ███░░██████   █████
 </pre>
 </th>
 	<td align="left">|</td>
@@ -158,7 +160,7 @@ The various functions can also be called by `:call g:Deblog2. ....`, look at the
 
 ## Example
 
-In script one want to log 
+In script one want to log
 
 ```vim
 " Load all log commands
@@ -200,7 +202,7 @@ Result:
 
 <img alt="Code sample result" src="https://raw.githubusercontent.com/Termplexed/res/master/img/deblog-sample-03.png" />
 
-1. Column one show time passed since last log entry. 
+1. Column one show time passed since last log entry.
 2. Column two show the time accumulated since last time reset (header). The time resets if there is more then [`htime`](https://github.com/Termplexed/deblog/blob/e0c02d6be444dcd6aa582ffefbce72eb7b17363e/plugin/deblog.vim#L74) seconds since last call to print. Defaults to 0.5sec if Vim has reltime, else 1sec.
 
 [<sup>TOC</sup>](#toc)
